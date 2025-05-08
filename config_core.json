@@ -1,0 +1,14 @@
+{
+    "event_broker_url": "redis://localhost:6379/0",
+    "new_request_event_topic": "aura.requests.new",
+    "speak_request_event_topic": "aura.tts.speak_request",
+    "ollama_url": "http://localhost:11434/api/chat",
+    "ollama_model": "mrpickles2:latest",
+    "chat_history_size": 15,
+    "ollama_num_ctx": 0,
+    "ollama_timeout": 90,
+    "log_file": "core_processor.log",
+    "console_log_level": "INFO",
+    "file_log_level": "DEBUG",
+    "system_message": "You are AURA, an advanced AI assistant. Be helpful, concise, and friendly."
+}

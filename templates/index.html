@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURA Event Monitor</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AURA Event Monitor</h1>
+            <div id="connection-status" class="status-disconnected">Disconnected</div>
+        </header>
+        <main>
+            <div id="event-log-container">
+                <h2>Live Event Log (<span id="event-count">0</span>)</h2>
+                <button id="clear-log-btn">Clear Log</button>
+                <ul id="event-list"></ul>
+            </div>
+        </main>
+        <footer>
+            <p>AURA-DyTON GUI Monitor</p>
+        </footer>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

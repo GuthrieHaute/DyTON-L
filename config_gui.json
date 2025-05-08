@@ -1,0 +1,6 @@
+{
+    "event_broker_url": "redis://localhost:6379/0",
+    "new_request_event_topic": "aura.requests.new",
+    "gui_host": "127.0.0.1",
+    "gui_port": 5001
+}

@@ -1,0 +1,10 @@
+{
+  "event_broker_url": "redis://localhost:6379/0",
+  "speak_request_event_topic": "aura.tts.speak_request",
+  "tts_status_event_topic": "aura.tts.status",
+  "tts_voice_id": "em_alex.pt",
+  "voices_directory": "voices",
+  "tts_sample_rate": 24000,
+  "tts_speed": 1.0,
+  "output_device_index": null
+}
